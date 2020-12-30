@@ -21,3 +21,15 @@ To run ther server in production mode:
 ```
 npm run prod
 ```
+To clean the folder dist (here is it the project compiled):
+```
+npm run clean
+```
+To execute the project when is compiled:
+```
+npm start
+```
+To compile the project:
+```
+npm run tsc
+```
