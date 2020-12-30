@@ -12,9 +12,9 @@
     },
     "devDependencies": {},
     "scripts": {
-        "tsc": "tsc",
+        "tsc": "tsc -p ./",
         "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
-        "prod": "tsc && node ./build/app.js",
+        "prod": "tsc && node ./dist/index.js",
         "start": "node ./dist/index",
         "clean": "rimraf dist"
     },
